@@ -1,0 +1,23 @@
+// duplicate class found for kotlin error while make project
+
+1. invalidate catches and restart
+    try to make project
+2. File -> Settings -> Languages & Frameworks -> Android SDK
+    Check for Android SDK up-to-date, check for latest version of SDK Build-Tools is installed
+
+    try to make project
+3. in the app level gradle add below dependency :
+    implementation(platform("org.jetbrains.kotlin.kotlin.bom:1.8.0"))
+
+    try to make project
+4. in the app level gradle add below code inside dependecies section :
+    constraints {
+      implementation("org.jetbrains.kotlin.kotlin-stdlib-jdk7:1.8.0") {
+        because("kotlin-stdlib-jdk7 is now a part of kotlin-stdlib")
+      }
+      implementation("org.jetbrains.kotlin.kotlin-stdlib-jdk8:1.8.0") {
+        because("kotlin-stdlib-jdk8 is now a part of kotlin-stdlib")
+      }
+    }
+
+    try to make project
