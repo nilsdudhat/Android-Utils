@@ -45,4 +45,19 @@ public class AppUtils {
             Log.d("--app_utils--", "shareApp: " + Log.getStackTraceString(e));
         }
     }
+
+    public static void shareDataToOtherApp(Activity activity, String subject, String message) {
+        Intent intent = new Intent(Intent.ACTION_SEND);
+
+        /* Type of Message */
+        intent.setType("text/plain");
+
+        /* Subject */
+        intent.putExtra(Intent.EXTRA_SUBJECT, subject);
+
+        /* Message */
+        intent.putExtra(Intent.EXTRA_TEXT, message);
+
+        activity.startActivity(Intent.createChooser(intent, "Choose App"));
+    }
 }
