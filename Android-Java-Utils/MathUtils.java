@@ -7,4 +7,8 @@ public class MathUtils {
     public static int getRandomNumber(int min, int max) {
         return (new Random()).nextInt((max - min) + 1) + min;
     }
+    
+    public static int getRandomPositionFromList(int listSize) {
+        return new Random().nextInt(listSize);
+    }
 }
