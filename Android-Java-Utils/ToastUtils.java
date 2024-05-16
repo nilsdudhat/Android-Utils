@@ -22,4 +22,10 @@ public class ToastUtils {
         toast = Toast.makeText(context, message, Toast.LENGTH_LONG);
         toast.show();
     }
+
+    public static void hideToast() {
+        if (toast != null) {
+            toast.cancel();
+        }
+    }
 }
