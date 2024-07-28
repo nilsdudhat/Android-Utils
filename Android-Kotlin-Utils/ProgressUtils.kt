@@ -1,7 +1,7 @@
 package com.udemy.journal.app.utils
 
 import android.app.Dialog
-import android.content.Context
+import android.app.Activity
 import android.util.Log
 import com.udemy.journal.app.R
 
@@ -10,7 +10,7 @@ class ProgressUtils {
         @Volatile
         private var progressDialog: Dialog? = null
 
-        fun showLoading(context: Context) {
+        fun showLoading(activity: Activity) {
             synchronized(this) {
                 if (progressDialog == null) {
                     progressDialog = Dialog(context)
