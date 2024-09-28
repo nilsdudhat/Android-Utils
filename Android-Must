@@ -1,0 +1,55 @@
+1. Declare Material UI Theme in themes.xml 
+--> parent="Theme.Material3.DayNight.NoActionBar"
+
+2. Always try Material UI Follow Up for better UI-UX from start of the App 
+--> https://m3.material.io/components
+
+3. Use Glide for Image Processing 
+--> https://bumptech.github.io/glide/doc/download-setup.html
+
+4. Always use Constraint Layout for better management of child views 
+--> Always use constraints for child views
+
+5. Use Splash API for Splash Screen 
+--> https://developer.android.com/develop/ui/views/launch/splash-screen
+
+6. Use MVVM Architecture for better management of Project Work
+
+7. Use Retrofit for network request 
+--> https://square.github.io/retrofit/
+
+8. Always manage exception for better App Stability in Any Condition
+--> try/catch, switching between threads whenever needed
+
+9. Use Network Receiver for better management of Network Related Project
+
+10. Use Live Data while communicating with API for better management of Exception
+--> https://developer.android.com/jetpack/androidx/releases/lifecycle
+
+11. Avoid recursive functions in project 
+--> Allow max two try then display fail to do task message
+
+12. Use Navigation Jetpack for better management of Fragments
+--> https://developer.android.com/guide/navigation/integrations/ui
+--> https://developer.android.com/jetpack/androidx/releases/navigation
+
+13. Follow API Request Structure
+--> ViewModel - Repository - Interface
+
+14. Use Room Database for Local Database
+--> Structure : ViewModel - Repository - Interface
+--> https://developer.android.com/training/data-storage/room
+
+15. Always Use Parcelize Model
+--> https://developer.android.com/kotlin/parcelize#kts
+
+16. Use Coroutine for long running tasks
+--> implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
+
+
+
+
+
+
+
+
