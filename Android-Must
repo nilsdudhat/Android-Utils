@@ -2,21 +2,21 @@
 --> parent="Theme.Material3.DayNight.NoActionBar"
 
 2. Always try Material UI Follow Up for better UI-UX from start of the App 
---> <a href="https://m3.material.io/components">Material UI</a>
+--> [https://m3.material.io/components](https://)
 
 3. Use Glide for Image Processing 
---> <a href="https://bumptech.github.io/glide/doc/download-setup.html">Glide</a>
+--> https://bumptech.github.io/glide/doc/download-setup.html
 
 4. Always use Constraint Layout for better management of child views 
 --> Always use constraints for child views
 
 5. Use Splash API for Splash Screen 
---> <a href="https://developer.android.com/develop/ui/views/launch/splash-screen">Splash Screen</a>
+--> https://developer.android.com/develop/ui/views/launch/splash-screen
 
 6. Use MVVM Architecture for better management of Project Work
 
 7. Use Retrofit for network request 
---> <a href="https://square.github.io/retrofit/">Retrofit</a>
+--> https://square.github.io/retrofit/
 
 8. Always manage exception for better App Stability in Any Condition
 --> try/catch, switching between threads whenever needed
@@ -24,27 +24,27 @@
 9. Use Network Receiver for better management of Network Related Project
 
 10. Use Live Data while communicating with API for better management of Exception
---> <a href="https://developer.android.com/jetpack/androidx/releases/lifecycle">Live Data</a>
+--> https://developer.android.com/jetpack/androidx/releases/lifecycle
 
 11. Avoid recursive functions in project 
 --> Allow max two try then display fail to do task message
 
 12. Use Navigation Jetpack for better management of Fragments
---> <a href="https://developer.android.com/guide/navigation/integrations/ui">Navigation UI</a>
---> <a href="https://developer.android.com/jetpack/androidx/releases/navigation">Navigation Libs</a>
+--> https://developer.android.com/guide/navigation/integrations/ui
+--> https://developer.android.com/jetpack/androidx/releases/navigation
 
 13. Follow API Request Structure
 --> ViewModel - Repository - Interface
 
 14. Use Room Database for Local Database
 --> Structure : ViewModel - Repository - Interface
---> <a href="https://developer.android.com/training/data-storage/room">Room Database</a>
+--> https://developer.android.com/training/data-storage/room
 
 15. Always Use Parcelize Model
---> <a href="https://developer.android.com/kotlin/parcelize#kts">Parcelize</a>
+--> https://developer.android.com/kotlin/parcelize#kts
 
 16. Use Coroutine for long running tasks
---> <a href="https://developer.android.com/kotlin/coroutines">Coroutine</a>
+--> https://developer.android.com/kotlin/coroutines
 
 17. BlurView
---> <a href="https://github.com/Dimezis/BlurView">BlurView</a>
+--> https://github.com/Dimezis/BlurView
