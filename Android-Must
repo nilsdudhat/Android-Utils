@@ -44,12 +44,4 @@
 --> https://developer.android.com/kotlin/parcelize#kts
 
 16. Use Coroutine for long running tasks
---> implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
-
-
-
-
-
-
-
-
+--> https://developer.android.com/kotlin/coroutines
