@@ -2,7 +2,7 @@
 --> parent="Theme.Material3.DayNight.NoActionBar"
 
 2. Always try Material UI Follow Up for better UI-UX from start of the App 
---> [https://m3.material.io/components](https://)
+--> [m3.material.io/components]
 
 3. Use Glide for Image Processing 
 --> https://bumptech.github.io/glide/doc/download-setup.html
