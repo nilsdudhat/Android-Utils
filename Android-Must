@@ -45,3 +45,6 @@
 
 16. Use Coroutine for long running tasks
 --> https://developer.android.com/kotlin/coroutines
+
+17. BlurView
+--> https://github.com/Dimezis/BlurView
